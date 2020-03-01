@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_gambarpahlawan"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ahmad_yani"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_namapahlawan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_gambarpahlawan"
+        android:text="Ahmad Dahlan"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_deskripsipahlawan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_namapahlawan"
+        android:layout_toRightOf="@id/iv_gambarpahlawan"
+        android:text="Deskripsi Ahmad Dahlan"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>
